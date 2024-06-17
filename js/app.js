@@ -1,7 +1,10 @@
-window.addEventListener("DOMContentLoaded", initHomeView);
+import * as components from "./components.js";
+// import * as articles from "./articles/example.json";
 
-function initHomeView() {
-    const h1 = document.createElement("h1");
-    h1.innerText = "Welcome!";
-    document.body.appendChild(h1);
+window.addEventListener("DOMContentLoaded", initHomeViewAsync);
+
+async function initHomeViewAsync() {
+    // console.log(articles);
+    const nav = components.Navbar();
+    document.body.appendChild(nav);
 }
