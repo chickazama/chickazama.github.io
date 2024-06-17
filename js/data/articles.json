@@ -1,7 +1,9 @@
 {
     "articles": [
         {
-            "title": "Test",
+            "author": "Matthew Hope",
+            "heading": "Hello, World!",
+            "category": "",
             "content": "test"
         }
     ]
