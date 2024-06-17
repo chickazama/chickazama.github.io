@@ -1,6 +1,8 @@
-[
-    {
-        "title": "Test",
-        "content": "test"
-    }
-]
+{
+    "articles": [
+        {
+            "title": "Test",
+            "content": "test"
+        }
+    ]
+}
