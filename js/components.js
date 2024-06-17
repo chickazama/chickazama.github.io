@@ -3,7 +3,7 @@ export function Navbar() {
     ret.classList.add("navbar", "navbar-expand-lg", "bg-body-tertiary");
     ret.innerHTML = `
     <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="/img/site-logo.png" width="32" height="32" /></a>
+    <a class="navbar-brand" href="#"><img class="img rounded" src="/img/site-logo.png" width="32" height="32" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
