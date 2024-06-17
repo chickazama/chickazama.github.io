@@ -1,6 +1,8 @@
-[
-    {
-        "title": "Example",
-        "content": "Test out articles!"
-    }
-]
+{
+    "articles": [
+        {
+            "title": "Test",
+            "content": "test"
+        }
+    ]
+}
