@@ -1,0 +1,11 @@
+spider 59, 43 lets u thru having beaten piano man
+spider 128, 71 gives u guitar pieces
+blu guy 78, 39
+green guiy 163, 75
+maggie 76, 117 lets u thru having beaten drum boss
+arlo 39, 132
+boncer 34, 21  and 34, 22 lets you into piano boss
+bouncer 15, 64 and 15, 66 lets you into final microphone boss and plays music video
+bouncer 133, 74 and 133, 75 lets you into guitar boss
+bouncer 107, 87 and 107, 88 lets you into drum boss
+bouncer 139, 97 and 139, 98 lets you into sax boss

@@ -1,0 +1,10 @@
+keyboard 35, 69
+guitar 93, 27
+guitar 104, 55
+guitar 128, 71
+sax 169, 76
+sax 130, 87
+sax 147, 103
+drums 107, 83
+drums 77, 117
+mic 15, 64
