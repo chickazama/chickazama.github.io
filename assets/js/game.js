@@ -47,6 +47,11 @@ function pauseEventListener(e) {
         case "P":
         case "p":
             paused = !paused;
+            if (paused) {
+                gameAudio.pause();
+            } else {
+                gameAudio.play();
+            }
             const menu = document.getElementById("pause-menu");
             menu.hidden = !paused;
             break;
