@@ -29,6 +29,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     gameAudio.loop = true;
     initPauseMenu();
     displayStartMenu();
+    displayControls();
     runAsync();
 });
 
@@ -79,6 +80,34 @@ async function runAsync() {
     window.addEventListener("keyup", interactListener);
     t0 = Date.now();
     requestAnimationFrame(main);
+}
+
+function displayControls() {
+    const div = document.createElement("div");
+    div.id = "controls-menu";
+    div.style.position = "absolute";
+    div.style.zIndex = 1;
+    div.style.textAlign = "center";
+    div.style.width = "320px";
+    div.style.height = "320px";
+    div.style.left = "360px";
+    div.style.top = "36px";
+    div.style.boxSizing = "border-box";
+    div.style.borderRadius = "5px";
+    div.style.padding = "5px";
+    const header = document.createElement("h1");
+    header.innerText = "Controls - Make sure CAPS LOCK is OFF"
+    div.appendChild(header);
+    const p1 = document.createElement("p");
+    p1.innerText = "Movement - w, a, s, d"
+    div.appendChild(p1);
+    const p2 = document.createElement("p");
+    p2.innerText = "Interact with NPCs/Pick up items - spacebar";
+    div.appendChild(p2);
+    const p3 = document.createElement("p");
+    p3.innerText = "Pause/Resume game - p";
+    div.appendChild(p3);
+    document.body.appendChild(div);
 }
 
 function displayStartMenu() {
