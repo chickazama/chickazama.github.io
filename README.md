@@ -1,3 +1,3 @@
-# Blog
+# GitHub Pages Website
 
-Git repo for my personal blog.
+The repo for a simple showcase of some of my coding projects & games.
