@@ -91,7 +91,7 @@ function displayControls() {
     div.style.width = "320px";
     div.style.height = "320px";
     div.style.left = "360px";
-    div.style.top = "36px";
+    div.style.top = "100px";
     div.style.boxSizing = "border-box";
     div.style.borderRadius = "5px";
     div.style.padding = "5px";
@@ -119,7 +119,7 @@ function displayStartMenu() {
     div.style.width = "320px";
     div.style.height = "320px";
     div.style.left = "36px";
-    div.style.top = "36px";
+    div.style.top = "100px";
     div.style.boxSizing = "border-box";
     div.style.borderRadius = "5px";
     div.style.padding = "5px";
@@ -149,7 +149,7 @@ function initPauseMenu() {
     div.style.width = "320px";
     div.style.height = "320px";
     div.style.left = "36px";
-    div.style.top = "36px";
+    div.style.top = "100px";
     div.style.boxSizing = "border-box";
     div.style.borderRadius = "5px";
     div.style.padding = "5px";

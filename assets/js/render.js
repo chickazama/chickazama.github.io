@@ -115,7 +115,7 @@ function initCanvas(id, width=CANVAS_WIDTH, height=CANVAS_HEIGHT) {
     ret.width = width;
     ret.height = height;
     ret.style.position = "absolute";
-    ret.style.top = '20px';
+    ret.style.top = '84px';
     ret.style.left = '20px';
     document.body.appendChild(ret);
     return ret;
